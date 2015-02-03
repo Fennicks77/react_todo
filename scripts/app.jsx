@@ -9,7 +9,7 @@ var ToDoListItem = React.createClass({
 	},
 	render: function(){
 		return <li>
-			<input type="checkbox" id={this.props.id} className="cb-done" checked={this.state.done} onChange={this.onDoneChange}/>
+			<input type="checkbox" id={this.props.id} className="cb-done" defaultChecked={this.state.done} onChange={this.onDoneChange} />
 			<label htmlFor={this.props.id}>{this.props.title}</label>
 		</li>; 
 	}
