@@ -1,0 +1,25 @@
+{
+  "name": "react-todo",
+  "version": "0.0.0",
+  "authors": [
+    "Nick <nituev7@gmail.com>"
+  ],
+  "description": "reactJS todo list",
+  "main": "app/scripts/app.js",
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.12.2",
+    "bootstrap": "~3.3.2"
+  }
+}
